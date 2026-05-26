@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "rule": "run",
+  "categories": [
+    {
+      "name": "Promotional",
+      "action": "TRASH",
+      "description": "Sales, marketing offers, discount codes, coupons, brand promotions."
+    },
+    {
+      "name": "SocialMedia",
+      "action": "TRASH",
+      "description": "Notifications from Facebook, X/Twitter, LinkedIn, Instagram, TikTok, Reddit."
+    },
+    {
+      "name": "SpamOrPhishing",
+      "action": "TRASH",
+      "description": "Unsolicited bulk mail, scams, obvious phishing attempts."
+    },
+    {
+      "name": "LowValueNotification",
+      "action": "TRASH",
+      "description": "Low-value automated notices: marketing app pings, throwaway product updates, blog 'we miss you' nudges."
+    },
+    {
+      "name": "Newsletter",
+      "action": "TRASH",
+      "description": "Subscribed newsletters, blog digests, substack-style writing the user opted into."
+    },
+    {
+      "name": "AccountUpdate",
+      "action": "KEEP",
+      "description": "Service account changes: settings updated, new device sign-in, plan changed, profile edits."
+    },
+    {
+      "name": "EventReminder",
+      "action": "REVIEW_DELETE",
+      "description": "Event reminders, RSVPs, calendar invites, webinar prompts. May be useful before event, deletable after."
+    },
+    {
+      "name": "Banking",
+      "action": "KEEP",
+      "important": true,
+      "description": "Bank statements, balance alerts, transfer confirmations, credit card account communications."
+    },
+    {
+      "name": "Bills",
+      "action": "KEEP",
+      "important": true,
+      "description": "Utility bills, rent invoices, subscription renewals with money due, payment reminders."
+    },
+    {
+      "name": "Security",
+      "action": "KEEP",
+      "important": true,
+      "description": "Two-factor codes, security alerts, suspicious sign-in warnings, password resets."
+    },
+    {
+      "name": "Shipping",
+      "action": "KEEP",
+      "description": "Shipping notifications, tracking updates, delivery confirmations."
+    },
+    {
+      "name": "Receipt",
+      "action": "KEEP",
+      "description": "Order confirmations, purchase receipts, invoices for completed transactions."
+    },
+    {
+      "name": "School",
+      "action": "KEEP",
+      "description": "School/university communications: classes, grades, registrar, faculty correspondence."
+    },
+    {
+      "name": "Job",
+      "action": "KEEP",
+      "important": true,
+      "description": "Recruiter outreach, interview scheduling, job application status, offer letters."
+    },
+    {
+      "name": "Work",
+      "action": "KEEP",
+      "description": "Work and business correspondence: meetings, projects, internal company communications."
+    },
+    {
+      "name": "Personal",
+      "action": "KEEP",
+      "description": "Real human-to-human correspondence from friends, family, non-business contacts."
+    },
+    {
+      "name": "MedicalInsuranceLegal",
+      "action": "KEEP",
+      "important": true,
+      "description": "Medical, insurance, legal correspondence including appointments, claims, contracts, lawyer/notary mail."
+    },
+    {
+      "name": "Unknown",
+      "action": "UNSURE",
+      "description": "Doesn't clearly fit any of the categories above; needs manual review."
+    }
+  ]
+}

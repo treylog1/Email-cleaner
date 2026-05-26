@@ -1,0 +1,34 @@
+# Git / Docker meta (not needed in image)
+.git/
+.gitignore
+.gitattributes
+.dockerignore
+Dockerfile
+README.md
+
+# Secrets — mount at runtime, never bake into image
+client_secret.json
+token.json
+.env
+credentials.json
+
+# Python / local env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Git history rewrite leftovers
+.git-rewrite/
+
+# Redundant training checkpoints (image only needs root adapter files)
+core/qwen-email-cleaner-lora-v01/checkpoint-*/
+
+# Windows launcher (Linux container uses python directly)
+main.bat
+
+# Optional local data
+data/
+*.db

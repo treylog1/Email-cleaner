@@ -1,0 +1,31 @@
+# PyTorch (CUDA 12.1) — install with:
+#   pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# Model server (lora_model_server.py)
+transformers==5.9.0
+accelerate==1.13.0
+peft==0.19.1
+bitsandbytes==0.49.2
+safetensors==0.7.0
+huggingface_hub==1.16.1
+
+fastapi==0.136.1
+uvicorn==0.47.0
+pydantic==2.13.4
+
+# Gmail client (clean.py)
+google-api-python-client==2.196.0
+google-auth==2.53.0
+google-auth-oauthlib==1.4.0
+google-auth-httplib2==0.4.0
+
+# CLI / UI (clean.py)
+requests==2.34.2
+questionary==2.1.1
+rich==15.0.0
+art==6.5

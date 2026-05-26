@@ -1,0 +1,26 @@
+# OAuth / secrets (never commit)
+client_secret.json
+token.json
+.env
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Git history rewrite leftovers
+.git-rewrite/
+
+# Local training checkpoints (inference uses root adapter via Git LFS)
+core/qwen-email-cleaner-lora-v01/checkpoint-*/
